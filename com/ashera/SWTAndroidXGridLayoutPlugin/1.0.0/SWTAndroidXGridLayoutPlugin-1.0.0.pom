@@ -10,7 +10,6 @@
 		<version>1.0.0</version>
 	</parent>
 	<build>
-		<sourceDirectory>gen</sourceDirectory>
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -77,8 +76,21 @@
 
 	<repositories>
 		<repository>
-			<id>ashera-github-ios-repo</id>
+			<id>ashera-github-swt-repo</id>
 			<url>https://raw.githubusercontent.com/AsheraCordova/mvn-ashera-swt-repo/master/</url>
+			<releases>
+				<enabled>true</enabled>
+				<updatePolicy>daily</updatePolicy>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+				<updatePolicy>always</updatePolicy>
+			</snapshots>
+		</repository>
+
+		<repository>
+			<id>ashera-github-java-repo</id>
+			<url>https://raw.githubusercontent.com/AsheraCordova/mvn-ashera-java-repo/master/</url>
 			<releases>
 				<enabled>true</enabled>
 				<updatePolicy>daily</updatePolicy>
