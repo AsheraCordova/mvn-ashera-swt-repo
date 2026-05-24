@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.ashera</groupId>
+  <artifactId>SWTSpatialKitPlugin</artifactId>
+  <versioning>
+    <release>1.0.0</release>
+    <versions>
+      <version>1.0.0</version>
+    </versions>
+    <lastUpdated>20260524092303</lastUpdated>
+  </versioning>
+</metadata>
